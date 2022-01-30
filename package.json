@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon --exec npx babel-node src/index.js",
-    "build":"babel src -d dist",
-    "start":"node dist"
+    "dev": "nodemon --exec npx babel-node src/index.js",
+    "build": "babel src -d dist",
+    "start": "node dist"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "cors": "^2.8.5",
     "dotenv": "^14.3.2",
     "express": "^4.17.2",
+    "gh-pages": "^3.2.3",
     "morgan": "^1.10.0",
     "mssql": "^7.3.0"
   },
